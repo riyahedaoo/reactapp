@@ -1,0 +1,190 @@
+.gif {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title1 {
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+  font-family: fantasy;
+  font-size: 11vh;
+  color: #333333;
+}
+
+.title2 {
+  position: absolute;
+  top: 44vh;
+  left: 5vw;
+  font-family: montasarret;
+  font-size: 5vh;
+  color: #333333;
+}
+
+.info {
+  position: relative;
+  background-color: transparent;
+  position: absolute;
+  width: 80vw;
+  height: 40vh;
+  margin: 6vw;
+}
+
+.infoinner {
+  align-self: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.info:hover .infoinner {
+  transform: rotateY(180deg);
+}
+
+.textinfo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #fd5800;
+  color: rgb(240, 227, 221);
+  align-self: center;
+  align-items: center;
+  font-size: 3.5vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2.5vw;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(241, 107, 28);
+}
+
+.logobox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 2vw;
+  background-color: rgb(77, 24, 223);
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(108, 58, 247);
+}
+
+.logo {
+  height: 32vh;
+  width: 32vh;
+  border-radius: 48%;
+  border: solid 1% rgb(241, 107, 28);
+  padding: 3vw;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.logo:hover {
+  transform: scale(1.15);
+}
+
+.appdev {
+  position: relative;
+  height: 80vh;
+  width: 80vh;
+  z-index: -1;
+}
+
+.getstart {
+  position: relative;
+  font-family: cursive;
+  font-size: 11vh;
+}
+
+.level {
+  position: relative;
+  font-size: 8vh;
+  font-family: fantasy;
+}
+
+.levelbox {
+  float: right;
+  position: relative;
+  height: 80vh;
+  width: 120vh;
+}
+
+.box1 {
+  position: relative;
+  background-color: rgb(79, 17, 250);
+  height: 23vh;
+  width: 37vh;
+  top: 8%;
+  left: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(94, 81, 209);
+  border-radius: 4%;
+}
+
+.box2 {
+  position: relative;
+  background-color: rgb(79, 17, 250);
+  height: 23vh;
+  width: 38vh;
+  top: 8%;
+  left: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(94, 81, 209);
+  border-radius: 4%;
+}
+
+.box3 {
+  position: relative;
+  background-color: rgb(79, 17, 250);
+  height: 23vh;
+  width: 37vh;
+  top: 8%;
+  left: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(94, 81, 209);
+  border-radius: 4%;
+}
+
+.leveltext {
+  font-family: Baby;
+  align-self: center;
+  position: absolute;
+  top: 30%;
+  color: white;
+  font-size: 6.5vh;
+}
+
+.box3:hover .leveltext {
+  transform: scale(1.2);
+}
+.box2:hover .leveltext {
+  transform: scale(1.15);
+}
+.box1:hover .leveltext {
+  transform: scale(1.2);
+}
+
+.trending {
+  font-size: 10vh;
+  font-family: fantasy;
+}
+
+.card:hover {
+  background-color: rgba(214, 212, 212, 0.781);
+}
+
+.footer {
+  background-color: rgba(245, 245, 245, 0.719);
+  padding: 2vw;
+}
+
+.ftext {
+  font-size: 7vh;
+  color: rgb(41, 40, 40);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.connect {
+  padding: 10vw;
+}
